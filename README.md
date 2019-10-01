@@ -3,12 +3,14 @@ Python Object Detection With Yolo
 
 
 ---- Version 1 (Cars) ------
+
 This sample code is detecting only a limited no. of objects. 
 Can be used to detect cars in a picture.
 
 
 
 ----- How to Use --------
+
 Mac: 
 Step 1: Download/Checkout the project
 
