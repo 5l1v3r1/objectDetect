@@ -12,6 +12,8 @@ Can be used to detect cars in a picture.
 ----- How to Use --------
 
 Mac: 
+
+
 Step 1: Download/Checkout the project
 
 Step 2: Open terminal and goto the project directory
@@ -34,11 +36,15 @@ Step 5: Place your image file to test inside input folder, named as test.jpg
 Step 6: Output image would be in the folder named output
 
 
+---------------------
+
+
 sample code is based on stackabuse's blog post:
 https://stackabuse.com/object-detection-with-imageai-in-python/
 
 
+---------------------
 
---
+
 Harmandeep Singh
  (Khalsa Labs)
