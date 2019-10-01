@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">	
+
+<link rel="stylesheet" type="text/css" href="Chart.min.css">
+<script src="Chart.bundle.min.js"></script>
+</head>
+
+<body>
+
+<div>
+<canvas id="myChart" width="300" height="300"></canvas>
+<img src="newimage.jpg" width="450">
+</div>
+
+<data id="cars"> 0</data>
+<data id="other">100</data>
+
+<script>
+    var ctxP = document.getElementById("myChart").getContext('2d');
+    var cars = document.getElementById("cars").value();
+    var other = document.getElementById("other").value();
+    
+    var myPieChart = new Chart(ctxP, {
+      type: 'pie',
+      data: {
+        labels: ["Cars", "Other"],
+        datasets: [{
+          data: [100, 120],
+          backgroundColor: ["#F7464A", "#4D5360"],
+          hoverBackgroundColor: ["#FF5A5E", "#616774"]
+        }]
+      },
+      options: {
+        responsive: false
+      }
+    });
+</script>
+
+</body>
+</html>
+
+
