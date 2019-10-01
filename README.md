@@ -5,7 +5,8 @@ Python Object Detection With Yolo
 ------------------ Version 1 (Cars) ---------------------
 This sample code is detecting only a limited no. of objects. 
 Can be used to detect cars in a picture.
----------------------------------------------------------
+
+
 
 --------------------- How to Use -------------------------
 Mac: 
@@ -29,7 +30,7 @@ Step 5: Place your image file to test inside input folder, named as test.jpg
         (lower the resolution of picture for best practice, e.g: 600*400)
 
 Step 6: Output image would be in the folder named output
--------------------------------------------------------------
+
 
 sample code is based on stackabuse's blog post:
 https://stackabuse.com/object-detection-with-imageai-in-python/
