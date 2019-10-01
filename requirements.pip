@@ -1,0 +1,6 @@
+wrapt==1.11.2
+tensorflow==1.14.0
+opencv-python==4.1.0.25
+Keras==2.3.0
+imageai==2.1.5
+
